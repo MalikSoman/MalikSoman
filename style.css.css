@@ -1,0 +1,58 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark text color for better readability */
+}
+
+/* Styling for the header */
+header {
+    background-color: #ffeb3b; /* Yellow background */
+    color: #d32f2f; /* Dark red text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #4caf50; /* Green background */
+    color: #ffffff; /* White text */
+    border-radius: 8px;
+}
+
+/* Styling for the list in the destinations section */
+#destinations ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#destinations li {
+    margin-bottom: 10px; /* Spacing between list items */
+}
+
+/* Styling for the gallery images */
+#gallery img {
+    margin: 5px; /* Space between images */
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #333; /* Dark background */
+    color: #cddc39; /* Light green text */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
